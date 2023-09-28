@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length of ROI Calculator</title>
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <form
+        onsubmit="calculate(document.getElementById('cookiesPs').value, document.getElementById('upgrCost').value, document.getElementById('percBuff').value, document.getElementById('addBuff').value)">
+        <label for="cookiesPs">Current Cookies Per Second</label><input id="cookiesPs" type="number" />
+        <label for="upgrCost">Upgrade Cost</label><input id="upgrCost" type="number" />
+        <label for="percBuff">Percentage Buff</label><input id="percBuff" type="number" value="0" />
+        <label for="addBuff">Additive Buff</label><input id="addBuff" type="number" value="0" />
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
